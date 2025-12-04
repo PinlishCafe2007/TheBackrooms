@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 6e4aa1a0ff7d5be28d89b4846151b62e4e423003 PinkishCafe <balduev07@gmail.com> 1764795982 +0700	commit (initial): deploy project
+6e4aa1a0ff7d5be28d89b4846151b62e4e423003 6e4aa1a0ff7d5be28d89b4846151b62e4e423003 PinkishCafe <balduev07@gmail.com> 1764795992 +0700	Branch: renamed refs/heads/master to refs/heads/main
+6e4aa1a0ff7d5be28d89b4846151b62e4e423003 139309a61eb97bc5e1e1114491841ebcba49484f PinkishCafe <balduev07@gmail.com> 1764836410 +0700	commit: rework init img
+139309a61eb97bc5e1e1114491841ebcba49484f 711e92b31ab0cd8ebe8adc713f4da39757bea1b2 PinkishCafe <balduev07@gmail.com> 1764837803 +0700	commit: rework loading img

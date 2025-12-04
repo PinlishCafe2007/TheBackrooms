@@ -1,0 +1,22 @@
+@keyframes ani {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.hello {
+	opacity: 0;
+	animation: ani 1s forwards;
+}
+
+.edge,
+.keys,
+.work,
+.feedback,
+.action {
+	opacity: 0;
+	animation: ani 2s forwards;
+}

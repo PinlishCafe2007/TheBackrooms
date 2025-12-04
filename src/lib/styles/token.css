@@ -1,0 +1,74 @@
+:root {
+	--space-green: #00f5a0;
+	--space-blue: #00d4ff;
+	--text-color: #ffffff;
+	--card-bg: #1e1e1e;
+	--input-bg: #2a2a2a;
+	--body-size: 1.125rem;
+	--container-width: 1200px;
+	--container-padding: 1.5rem;
+	--description-text: 2em;
+}
+/* Typography */
+h1 {
+	font-size: clamp(2rem, 5vw, 4em);
+	color: var(--text-color);
+	line-height: 1.2;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: clamp(2rem, 4vw, 3em);
+	color: var(--text-color);
+	text-align: center;
+	margin: 2em 0 1.5em;
+}
+
+h3 {
+	color: var(--space-green);
+	font-size: clamp(1.5rem, 2vw, 1em);
+}
+
+p {
+	color: var(--text-color);
+	font-size: var(--body-size);
+	line-height: 1.6;
+}
+
+.green {
+	color: var(--space-green);
+}
+.blue {
+	color: var(--space-blue);
+}
+.bold {
+	font-weight: 700;
+}
+/* Layout Utilities */
+.container {
+	width: 100%;
+	max-width: var(--container-width);
+	margin: 0 auto;
+	padding: 0 var(--container-padding);
+}
+
+.grid_3_col {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+.split_grid {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	gap: 2rem;
+	align-items: stretch;
+}
+
+.card {
+	background-color: var(--card-bg);
+	border-radius: 20px;
+	border: 1px solid #333;
+	transition: 0.3s ease;
+	overflow: hidden;
+}

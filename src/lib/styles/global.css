@@ -1,0 +1,15 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+	padding: 0;
+	background-color: #111;
+	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
