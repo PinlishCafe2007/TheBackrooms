@@ -17,7 +17,6 @@
 		background-color: transparent;
 		border: 2px solid var(--text-color);
 		color: var(--text-color);
-		margin-left: 10px;
 	}
 
 	.btn:hover {
